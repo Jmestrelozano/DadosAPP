@@ -21,6 +21,6 @@ You will also see any lint errors in the console.
 
 1. puede seleccionar multiples valores de los diferrentes dados a mostrar
 2. cuenta con la opcion de escoger el numero de caras que desea ver
-3  permite lanzar varias veces diferrentes dados ya sea con el numero de dados o con las caras diferrentes
+3. permite lanzar varias veces diferrentes dados ya sea con el numero de dados o con las caras diferrentes
 4. suma la cantidad de numero de dados al sacar el valor que corresponda
 
