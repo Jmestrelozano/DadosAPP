@@ -10,7 +10,7 @@ export const TemplateDados = ({ ramdon, prop, setCount, ruta }) => {
   return (
     <div>
       <img
-        src={`${process.env.PUBLIC_URL}/assets/images/${ruta}/${RamdonNumber}.png`}
+        src={`${process.env.PUBLIC_URL}./assets/images/${ruta}/${RamdonNumber}.png`}
         className="dado"
       />
     </div>
