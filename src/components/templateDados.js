@@ -4,7 +4,7 @@ export const TemplateDados = ({ ramdon, prop, setCount, ruta }) => {
   const [RamdonNumber, setRamdonNumber] = useState();
   useEffect(() => {
     setRamdonNumber(ramdon);
-    setCount(ramdon);
+    setCount(ramdon)
   }, [prop]);
 
   return (
