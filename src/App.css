@@ -3,3 +3,22 @@
   height: 100vh;
 }
 
+.dado{
+  /* Duración de la trasformación */
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+
+	/* cursor tipo enlace */
+	cursor: pointer;
+	cursor: hand;
+}
+/* la ratación es ejecutada cuando el mouse pase */
+.dado:hover
+{
+	transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+}
+

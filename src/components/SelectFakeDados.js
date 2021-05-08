@@ -1,6 +1,10 @@
 import React from "react";
 
-export const SelectFakeDados = () => {
+export const SelectFakeDados = ({setGuardarRuta}) => {
+
+  const handleFakeDados =(rutaId)=>{
+    setGuardarRuta(rutaId)
+  }
   return (
     <div className="btn-group">
       <button
@@ -12,15 +16,15 @@ export const SelectFakeDados = () => {
       >
         NUMERO DE CARAS
       </button>
-      <ul className="dropdown-menu">
+      <ul onClick={(e)=>handleFakeDados(e.target.id)} className="dropdown-menu">
         <li>
-          <a className="dropdown-item" href="#">
-            6
+          <a id="6caras" className="dropdown-item" href="#">
+            6 caras
           </a>
         </li>
         <li>
-          <a className="dropdown-item" href="#">
-            2
+          <a id="4caras" className="dropdown-item" href="#">
+            4 caras
           </a>
         </li>
       </ul>
